@@ -18,7 +18,7 @@
     for(int i=0;i<n;i++){
       if(a[i]<min){
         min=a[i];
-    }
+      }
     }
   return min;
   }
@@ -26,7 +26,7 @@
 
 
 /*average function*/
-float average(inta[],int n){ 
+float average(int a[],int n){ 
   float sum = 0 ;
      for(int i=0; i<n ; i++){
        sum = sum + a[i];
