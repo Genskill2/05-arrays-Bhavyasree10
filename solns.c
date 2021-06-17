@@ -1,3 +1,4 @@
+#include<stdio.h>
 /* max function */
   int max(int a[],int n){
     int m=0;
