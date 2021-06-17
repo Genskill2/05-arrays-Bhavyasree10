@@ -13,7 +13,7 @@
 
 /*min function*/
   int min(int a[],int n){
-    int m=0;
+    int min=a[0];
     for(int i=0;i<n;i++){
       if(a[i]<m){
         m=a[i];
@@ -25,7 +25,8 @@
 
 
 /*average function*/
-float average(inta[],int n){ float sum = 0 ;
+float average(inta[],int n){ 
+  float sum = 0 ;
      for(int i=0; i<n ; i++){
        sum = sum + a[i];
 
@@ -35,7 +36,7 @@ float average(inta[],int n){ float sum = 0 ;
 
 
 
-/mode function/
+/*mode function*/
 int mode(int a[], int length){
    int n = max(a,length);
    int p = min(a,length);
@@ -46,7 +47,7 @@ int mode(int a[], int length){
             if(a[j]==i){
                c++;
           }
-           
+            
       }   
      counts[++d] = c;
   }
@@ -97,10 +98,3 @@ int factors(int x, int arr[]){
    return cnt+1;
  }
     
-  
-  
-  
-  
-  
-  
-  
