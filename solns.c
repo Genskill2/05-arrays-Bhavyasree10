@@ -15,11 +15,11 @@
   int min(int a[],int n){
     int min=a[0];
     for(int i=0;i<n;i++){
-      if(a[i]<m){
-        m=a[i];
+      if(a[i]<min){
+        min=a[i];
     }
     }
-  return m;
+  return min;
   }
 
 
