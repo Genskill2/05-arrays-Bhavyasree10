@@ -1,6 +1,4 @@
 /* max function */
-#include <stdio.h>
-int main(){
   int max(int a[],int n){
     int m=0;
     for(int i=0;i<n;i++){
@@ -10,14 +8,10 @@ int main(){
     }
     return m;
   }
-  return 0;
-}
-
+ 
 
 
 /*min function*/
-#include <stdio.h>
-int main(){
   int min(int a[],int n){
     int m=0;
     for(int i=0;i<n;i++){
@@ -27,8 +21,6 @@ int main(){
     }
   return m;
   }
-  return 0;
-}
 
 
 
